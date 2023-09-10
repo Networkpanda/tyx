@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			*{
+				padding: 0;
+				margin: 0;
+				box-sizing: border-box;
+			}
+			.container{
+				width: 1000px;
+				height: 100vh;
+				margin: 0 auto;
+				font-size: 16px;
+				letter-spacing: 5px;
+				color: #9d7373;
+				background-color: rgb(99, 124, 87);
+			}
+			.head{
+				width: 120px;
+				height: 30px;
+				text-align: center;
+				line-height: 30px;
+				border-radius: 10px;
+				color: rgb(207, 120, 120);
+				font-weight: bold;
+				margin: 0 20px;
+				background-color: #fff;
+			}
+			.text{
+				padding: 20px;
+				font-size: 14px;
+				color: #975695;
+				line-height: 30px;
+				text-indent: 2em;
+			}
+			header{
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				width: 100%;
+				height: 300px;
+				background: url('img/bg.jpg')  center;
+				background-size: 100%;
+			}
+			header p{
+				font-size: 40px;
+			}
+			.nav{
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+				width: 100%;
+				height: 40px;
+				background-color: #e060c0;
+			}
+			.main{
+				background-color: #f0f1f2;
+			}
+			.main .main_t{
+				display: flex;
+				width: 100%;
+				padding: 20px 0; 
+			}
+			.main .main_t .main_t_l{
+				padding: 20px 0;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				width: 300px;
+			}
+			.main .main_t .main_t_l .avater{
+				width: 150px;
+				height: 150px;
+				border-radius: 100%;
+			}
+			.main .main_t .main_t_l .info{
+				width: 250px;
+				height: 180px;
+				margin: 40px 0;
+				text-align: center;
+				/* padding: 10px; */
+				border: 2px dashed #594b4b;
+			}
+			.main .main_t .main_t_l .info .info_item{
+				margin: 8px 0;
+			}
+			.main .main_t .main_t_r{
+				flex: 1;
+			}
+			.main .main_f{
+				width: 100%;
+				height: 500px;
+				padding: 20px 0;
+			}
+			.main .main_f{
+				display: flex;
+				width: 100%;
+			}
+			.main .main_f .main_f_l{
+				flex: 1;
+			}
+			.main .main_f .main_f_r{
+				width: 300px;
+				padding: 0 10px;
+			}
+			.main .main_f .main_f_r img{
+				width: 250px;
+				height: 150px;
+				margin: 10px 0;
+			}
+			footer{
+				width: 100%;
+				height: 30px;
+				line-height: 30px;
+				text-align: center;
+				background-color: #d0d68a;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<!-- 头部部分 -->
+			<header>
+				<p>Weclome to my personal website</p>
+			</header>
+			<!-- 导航栏部分 -->
+			<div class="nav">
+				<div class="nav_item">我的首页</div>
+				<div class="nav_item">我的轨迹</div>
+				<div class="nav_item">我的爱好</div>
+			</div>
+			<!-- 个人简介部分 -->
+			<div class="main">
+				<div class="main_t">
+					<div class="main_t_l">
+						<img src="img/avater.jpg" alt="" class="avater">
+						<div class="info">
+							<div class="info_item">姓名: 谭怡曦</div>
+							<div class="info_item">性别: 女</div>
+							<div class="info_item">年龄: 22岁</div>
+							<div class="info_item">民族: 汉</div>
+						</div>
+					</div>
+					<div class="main_t_r">
+						<div class="head">自我介绍</div>
+						<div class="text">
+							别误会 这不是我 这是南湘 她主修绘画雕塑 又有艺术气质又有美艳皮囊 是我心中色艺双馨的楷模 
+						她呢 喜欢花漂亮的风景 而她自己同时也是许多男人眼里的漂亮风景 她的家庭不太富裕但美术学院却是一个类似钞票焚烧炉一样的地方 
+						好吧,这也不是我,我没有这麼奢侈这是顾里 如你所见 她呢 是一个如假包换的富二代 
+						我要不是已经认识她十几年 我也一定和普罗大众一样恨不得冲她脸上丢小笼包子 我确实也这麼干过 但她的脑子里却并不是只有奢侈品
+						她同时双修注册会计和国际金融 而且自学商法,业馀时间还是个倒爷 以前喜欢买卖黄金 最近在国际期货市场倒腾土豆和玉米 
+						当然 这绝对不可能是我 她叫唐宛如 是国家二级羽毛球运动员 但她的梦想却是 成为玛丽莲梦露般的性感尤物 
+						如你所见 她是一个总在不该淡定的场合特别淡定 在该淡定的场合特别不淡定的...少女 
+						好啦 这才是我 没有南湘那么漂亮 没有顾里那么精致 但也没有唐宛如那么的over 
+						我叫林萧 是上海万千女孩中最平凡的一个 
+						</div>
+					</div>
+				</div>
+				<div class="main_f">
+					<div class="main_f_l">
+						<div class="head">自我介绍（正经版）</div>
+						<div class="text">
+							这才是真正的自我介绍，我叫谭怡曦，性别女，爱好吃瓜，发疯。拥有每个大学生都有的美好品质，容易死。
+							接下来的日子希望和大家好好相处
+					<div class="main_f_r">
+						<img src="img/image_1.jpg" alt="">
+						<img src="img/image_2.jfif" alt="">
+					</div>
+				</div>
+			</div>
+			<!-- 尾部部分 -->
+			<footer>
+				没有水的地方叫沙漠，没有哥的地方当然就叫做寂寞啦
+			</footer>
+		</div>
+		
+	</body>
+</html>
